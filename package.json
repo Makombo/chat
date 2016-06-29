@@ -1,9 +1,15 @@
 {
-  "name": "socket-chat-example",
+  "name": "chat",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "My socket.io Chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "4.10.2",
-    "socket.io": "1.2.0"
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
   }
 }
